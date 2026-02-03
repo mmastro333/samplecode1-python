@@ -1,6 +1,8 @@
-# File Compression Watcher
+# File Compression Watcher Daemon
 
 This script acts as a system janitor. It runs in the background (as a daemon), looks for large files in a specific folder, compresses them to save space, and sends you an email report of its progress.
+
+Note, similar functioning software like logrotate is available, but a script such as this might still come in handy in niche use cases.
 
 ## INSTALL NOTES:  
    To get this daemon running, you’ll need to set up the Python environment, install specific system-level dependencies for `psutil`, and configure a way to send emails.

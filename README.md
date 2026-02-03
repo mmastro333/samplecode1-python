@@ -1,4 +1,4 @@
-# samplecode1-python
+# File Compression Watcher
 
 A daemon that regularly scans a directory for files to compress and emails a report on its activity.  
 ## INSTALL NOTES:  

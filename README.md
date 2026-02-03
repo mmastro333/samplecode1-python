@@ -96,4 +96,3 @@ Since this script is a loop, it will "lock" your terminal window while it runs.
 `nohup python3 your_script.py [args] > output.log 2>&1 &`
 * **Windows:** You can run it using `pythonw.exe` to execute it without a console window.
 
-**Would you like me to show you how to modify the email section to support secure Gmail (SSL/TLS) authentication?**
